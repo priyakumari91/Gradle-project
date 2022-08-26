@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 	
-	@GetMapping(path = "/gradle")
+	@GetMapping(path = "/assignmen2")
 	public String welcome() {
-		return "Feeling Great And Enjoying The Devops Training ";
+		return "Coming together is a beginning, staying together is progress, and working together is success.";
 	}
 
 }
